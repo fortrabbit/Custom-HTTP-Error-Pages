@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		• fortrabbit Error and Success Pages
+	</title>
+	<meta name="description" content="This is an Apache webserver error page on fortrabbit.">
+	<!--[if lt IE 9]>  
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+	<![endif]-->
+
+	<style type="text/css">
+
+		p, h1, h2, h3, li, footer {
+			font-family: 'Helvetica Neue', sans-serif;
+			color: #444;
+			line-height: 1.5em;
+		}
+		a {
+			text-decoration: none;
+			color: #5057A1
+		}
+		a:hover {
+			color: #000;
+		}
+		body {
+			background: #eee;
+			margin: 90px;
+		}
+		code {
+			padding: 2px 6px;
+			background: #fff;
+			border: 1px solid rgba(0,0,0,.1);
+		}
+		hr {
+			border: 0;
+			border-bottom: 1px solid #FFF;
+			border-top: 1px solid #BBB;
+		}
+		.fortrabbit {
+			font-family: Georgia, serif;
+			font-weight: bold;
+			font-style: italic;
+			color: #444;
+			text-decoration: none;
+		}
+		footer {
+			margin: 30px 0;
+		}
+
+	</style>
+
+</head>
+<body>
+
+<div id="main" role="main">
+	<article>
+		<p>
+			<strong>Things will go wrong.</strong> We at <a href="http://fortrabbit.com" class="fortrabbit">• fortrabbit</a> like meaningful error messages. Here are our custom error pages for our PHP PaaS. They are all stand alone pages – CSS is included in the head. The syntax is hopefully valid HTML5. Feel free to rip, mix &amp; burn.
+		</p>
+		<h1>
+			Custom HTTP Error Pages
+		</h1>
+		<p>
+			The most common HTTP Status Apache error pages with some additional infos for humans:
+		</p>
+		<ul> 
+			<li>
+				<a href="401.html">
+					401
+				</a> – Unauthorized, Login failed
+			</li> 
+			<li>
+				<a href="403.html">
+					403
+				</a> – Forbidden
+			</li>
+			<li>
+				<a href="404.html">
+					404
+				</a> – File not Found
+			</li>
+			<li>
+				<a href="410.html">
+					410
+				</a> – Gone
+			</li>
+			<li>
+				<a href="500.html">
+					500
+				</a> – Internal Server Error
+			</li>
+			<li>
+				<a href="503.html">
+					503
+				</a> – Service Unavailable / Overload
+			</li>
+			<li>
+				<a href="505.html">
+					505
+				</a> – HTTP Version Not Supported
+			</li>
+		</ul>
+		<h1>
+			Other Error and Success Pages
+		</h1>
+		<p>
+			We have a few other custom pages that are not handeld by the standard HTTP Errors:
+		</p>
+		<ul>
+			<li>
+				<a href="service-offline.html">
+					Service Offline
+				</a> - When we have shut down an app - probably for security reasons
+			</li>
+			<li>
+				<a href="missing-routing.html">
+					Missing Routing
+				</a> - When an internal or external domain is not yet or not correctly configured
+			</li>
+			<li>
+				<a href="service-unavailable.html">
+					Service Unavailable
+				</a> – Set Up, Maintenance, or when some somehting when wrong somewhere
+			</li>
+			<li>
+				<a href="app-frozen.html">
+					App Frozen
+				</a> – when a developer app is currently not available
+			</li>
+			<li>
+				<a href="it-works.html">
+					It works!
+				</a> – a standard index.php beeing copied to the doc-root directory of each new App including some getting started infos <em style="color:red">(links need to be set)</em>.
+			</li>
+		</ul>
+	</article>
+	<footer>
+		Sincerely yours <a class="fortrabbit" href="http://fortrabbit.com">• fortrabbit</a>
+	</footer>
+</div>
+</body>
+</html>
+<!-- fortrabbit – worldwide hideout -->

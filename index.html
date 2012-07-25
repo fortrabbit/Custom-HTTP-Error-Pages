@@ -49,11 +49,41 @@
 			margin: 30px 0;
 		}
 
+		#github-ribbon {
+			height: 200px;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 200px;
+			z-index: 100;
+		}
+		#github-ribbon a {
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			transform: rotate(45deg);
+			font-family: 'Helvetica Neue', sans-serif;
+			background: #ccc;
+			color: #eee;
+			font-weight: bold;
+			height: 60px;
+			line-height: 60px;
+			position: absolute;
+			right: -90px;
+			text-align: center;
+			top: 30px;
+			width: 300px;
+		}
+		#github-ribbon a:hover {
+			color: #fff;
+		}
 	</style>
 
 </head>
 <body>
-
+<div id="github-ribbon">
+	<a id="github-ribbon" href="https://github.com/fortrabbit/Custom-HTTP-Error-Pages">GitHub →</a>
+</div>
 <div id="main" role="main">
 	<article>
 		<p>

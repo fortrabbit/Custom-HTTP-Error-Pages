@@ -69,30 +69,14 @@
 			It works!
 		</h1>
 		<p>
-			This is just a bare blank App. You might want to replace the file <code>index.php</code> with your own great work. Check out some of our getting started guides:
+			Yet another new App on <em class="fortrabbit">• fortrabbit</em>! Maybe share some love? <a href="https://twitter.com/share" class="twitter-share-button" data-text="Yet another new App on #fortrabbit #PHP #PaaS. I did it. You can do it too." data-size="large" data-count="none">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</p>
-		<ul>
-			<li>
-				<a href="#">
-					Up and running in 5 minutes
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					A basic Git Workflow
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					A basic SFTP Workflow
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					Good to know
-				</a>
-			</li>
-		</ul>
+		<hr>
+		<p>
+			You might want to replace the file <code>index.php</code> with your own great work. Check out some of our getting started guides @ <a href="http://support.fortrabbit.com">support.fortrabbit.com</a>.
+		</p>
+
 	</article>
 	<aside>
 		<p>

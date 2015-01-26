@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>{{ title }}</title>
+	<title>fortrabbit</title>
 	<meta name="description" content="Custom Apache webserver error pages from fortrabbit.">
 	<link rel="stylesheet" href="http://s3-eu-west-1.amazonaws.com/fortrabbit-static/css/fortrabbit.css">
 	<script src="http://s3-eu-west-1.amazonaws.com/fortrabbit-static/js/fortrabbit.js"></script>
@@ -46,15 +46,21 @@
 	<div id="main" role="main" class="content">
 		<main role="main" class="flexcenter mainframe">
 			<article class="wrapper">
-			<h1>{{ title }}{{#if subtitle }}<br><span class="thinfont">{{ subtitle }}</span></h1>{{/if}}
-			{{{ contents }}}
-			{{#if articles }}
+			<h1>fortrabbit<br><span class="thinfont">custom error pages</span></h1>
+			<p><strong>Things will go wrong.</strong> We at <a href="http://fortrabbit.com">fortrabbit</a> like meaningful error messages. Here are our custom error pages for our PHP hosting platform. The syntax is hopefully valid HTML5. Feel free to rip, mix &amp; burn.</p>
+
 			<ul>
-			{{#each articles }}
-			<li><a href="{{ shorttitle }}.html">{{ title }}</a></li>
-			{{/each}}
+			<li><a href="401.html">Error 401</a></li>
+			<li><a href="403.html">Error 403</a></li>
+			<li><a href="404.html">Error 404</a></li>
+			<li><a href="410.html">Error 410</a></li>
+			<li><a href="500.html">Error 500</a></li>
+			<li><a href="503.html">Error 503</a></li>
+			<li><a href="505.html">Error 505</a></li>
+			<li><a href="it-nearly-works.html">It nearly works</a></li>
+			<li><a href="it-really-works.html">It really works</a></li>
+			<li><a href="service-offline.html">Temporarily offline</a></li>
 			</ul>
-			{{/if}}
 			</article>
 		</main>
 		<footer>

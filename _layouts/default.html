@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>{{ title }}</title>
+	<meta name="description" content="Custom Apache webserver error pages from fortrabbit.">
+	<link rel="stylesheet" href="http://s3-eu-west-1.amazonaws.com/fortrabbit-static/css/fortrabbit.css">
+	<script src="http://s3-eu-west-1.amazonaws.com/fortrabbit-static/js/fortrabbit.js"></script>
+	<!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+	<style type="text/css">
+
+		#github-ribbon {
+			height: 200px;
+			overflow: hidden;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 200px;
+			z-index: 100;
+		}
+		#github-ribbon a {
+			-webkit-transform: rotate(45deg);
+			-moz-transform: rotate(45deg);
+			transform: rotate(45deg);
+			background: #ccc;
+			color: #eee;
+			font-weight: bold;
+			height: 60px;
+			line-height: 60px;
+			position: absolute;
+			right: -90px;
+			text-align: center;
+			top: 30px;
+			width: 300px;
+		}
+		#github-ribbon a:hover {
+			color: #fff;
+		}
+	</style>
+
+</head>
+
+<body class="usernavhidden">
+	<div id="github-ribbon"><a id="github-ribbon" href="https://github.com/fortrabbit/Custom-HTTP-Error-Pages">GitHub</a></div>
+	<div id="main" role="main" class="content">
+		<main role="main" class="flexcenter mainframe">
+			<article class="wrapper">
+			<h1>{{ title }}{{#if subtitle }}<br><span class="thinfont">{{ subtitle }}</span></h1>{{/if}}
+			{{{ contents }}}
+			{{#if articles }}
+			<ul>
+			{{#each articles }}
+			<li><a href="{{ shorttitle }}.html">{{ title }}</a></li>
+			{{/each}}
+			</ul>
+			{{/if}}
+			</article>
+		</main>
+		<footer>
+			PHPower to the PHPeople<br>
+			<a href="http://fortrabbit.com" class="fortrabbit" title="best PHP hosting ever">• fortrabbit</a>
+		</footer>
+	</div>
+</body>
+</html>
+<!-- fortrabbit – worldwide hideout -->

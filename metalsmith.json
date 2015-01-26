@@ -1,0 +1,22 @@
+{
+  "source": "./_pages",
+  "destination": "./_site",
+  "metadata": {
+    "title": "fortrabbit custom error pages",
+    "description": "static site generation of custom error pages."
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-collections": {
+       "articles": {
+        "pattern": "*.md",
+        "sortBy": "title",
+        "reverse": false
+      }
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars",
+      "directory": "_layouts"
+    }
+  }
+}

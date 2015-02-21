@@ -7,4 +7,4 @@ template: page.html
 
 ---
 
-Sorry for the inconvenience. We are currently turning the some screws. Please check [status.fortrabbit.com](http://status.fortrabbit.com/) for updates.
+Sorry for the inconvenience. We are currently turning the some screws. Please check [status.fortrabbit.com](http://status.fortrabbit.com/) for downtime updates.

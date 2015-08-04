@@ -7,7 +7,3 @@ the latest and greatest fortrabbit custom error pages. feel free to use.
 * check if you install all node modules defined in package.json  > `npm install`
 * `node_modules/.bin/metalsmith` < generate a new `_site` folder
 * Git subtree `gh_pages` is the generated folder `_site` > `git subtree push --prefix _site origin gh-pages`
-
-## TODO
-
-* Include basic CSS in the files directly — not a blown up "framework".

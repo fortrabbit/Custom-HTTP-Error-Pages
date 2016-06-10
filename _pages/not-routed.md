@@ -1,6 +1,6 @@
 ---
 
-shorttitle: 404
+shorttitle: 404-no-domain
 title: 404
 subtitle: Domain not routed
 collection: articles

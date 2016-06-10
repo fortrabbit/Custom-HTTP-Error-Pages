@@ -1,7 +1,7 @@
 ---
 
-shorttitle: 404-no-domain
-title: 404
+shorttitle: not-routed
+title: 404 no domain
 subtitle: Domain not routed
 collection: articles
 template: page.html

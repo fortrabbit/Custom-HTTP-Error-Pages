@@ -1,22 +1,21 @@
 ---
 
 shorttitle: not-routed
-title: 404 no domain
-subtitle: Domain not routed
+title: Domain not routed
+subtitle: 404
 collection: articles
 template: page.html
 
 ---
 
 <p class="type-l">
-    This domain points to fortrabbit but it isn't associated with any App, yet. Are you the developer? You might want to go to the [Dashboard](https://dashboard.fortrabbit.com) to add this domain to your App.
+    This domain points to fortrabbit but it isn't associated with any App. Are you the developer? You might want to go to the [Dashboard](https://dashboard.fortrabbit.com) to add this domain to your App.
 </p>
 
-## Other possibilities
+You may:
 
-* You added `www.domain.tld` in the Dashboard, but forgot `domain.tld`.
-* You added `domain.tld` in the Dashboard, but forgot `www.domain.tld`.
-* You recently upgraded your App from the Dashboard and your DNS cache is not, yet, refreshed.
-* You used A records instead of CNAME routing and the App moved to another Node.
+* recently upgraded your App and your DNS cache is not - yet - refreshed.
+* used A records not CNAME for routing, now the App was moved.
+* some mismatch with naked domain (domain.tld) and subdomain (blog.domain.tld).
 
-See our [domain help article](https://help.fortrabbit.com/about-domains) for more information.
+Also see our [domain help article](https://help.fortrabbit.com/about-domains) for more information.

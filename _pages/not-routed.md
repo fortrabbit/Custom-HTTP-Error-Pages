@@ -18,4 +18,4 @@ template: page.html
 * A records not CNAME used for routing, now the App was moved
 * misconfiguration naked domain (domain.tld) and subdomain (blog.domain.tld)
 
-Also see our [domain help article](https://help.fortrabbit.com/about-domains) for more information.
+Also see our [domain help article](https://help.fortrabbit.com/domains) for more information.

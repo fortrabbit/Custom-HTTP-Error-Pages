@@ -11,12 +11,12 @@
     "url": "https://github.com/fortrabbit/error-pages-newer"
   },
   "dependencies": {
-    "metalsmith-ignore": "^0.1.2",
-    "metalsmith-drafts": "0.0.1",
-    "metalsmith-templates": "^0.7.0",
-    "handlebars": "^4.0.6",
-    "metalsmith-markdown": "^0.2.1",
+    "handlebars": "^4.0.10",
+    "metalsmith": "^2.3.0",
     "metalsmith-collections": "^0.9.0",
-    "metalsmith": "^2.3.0"
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.7.0"
   }
 }

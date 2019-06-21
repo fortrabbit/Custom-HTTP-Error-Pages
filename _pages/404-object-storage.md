@@ -8,4 +8,4 @@ template: page.html
 
 ---
 
-<p class="type-l type-serif type-italic read-xl">Most common case for this page: You have entered a wrong URL.</p>
+<p class="type-l type-serif type-italic read-xl">An asset was not found. Maybe a wrong link, or something with permissions, or something else.</p>

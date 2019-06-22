@@ -18,13 +18,12 @@
                 <p class="type-l type-serif type-italic read-xl">This is a time-out. Something is blocking or taking too long to process so that the server times out. In most cases this error is connected to code errors, not to hardware problems.</p>
 
 <h3 id="tips-for-the-developer">Tips for the developer</h3>
-<p>It’s not likely that you can find something in the PHP error logs, as it just runs out of time.</p>
 <ul>
-<li>What is the request process with your page?</li>
-<li>Are you doing heavy image transformations? Maybe cache them.</li>
-<li>Are you making calls to external APIs? Maybe something is down there.</li>
 <li>Is this page generating an expensive database query?</li>
-<li>Check for some sort of loop in your code.</li>
+<li>Are you doing heavy image transformations? Maybe cache them.</li>
+<li>Are you making calls to external APIs? Maybe something is down there?</li>
+<li>It’s not likely that you can find something in the PHP error logs, as it just runs out of time.</li>
+<li>Ask yourself, what might be wrong with the request process here? Maybe a loop?</li>
 <li>Use a profiler like Blackfire or NewRelic to find the bottleneck.</li>
 <li>Decrease/increase <code>max_timeout</code> setting for debugging.</li>
 </ul>

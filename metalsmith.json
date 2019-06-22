@@ -1,6 +1,6 @@
 {
   "source": "./_pages",
-  "destination": "./_site",
+  "destination": "./docs",
   "metadata": {
     "title": "fortrabbit custom error pages",
     "description": "static site generation of custom error pages."

@@ -4,12 +4,13 @@ the latest and greatest fortrabbit custom error pages. feel free to use.
 
 ## Install
 
-* check if you have installed all node modules defined in `package.json` via `npm install`
+* Check if you have installed all node modules defined in `package.json` via `npm install`
 
 ## Generate
 
-* `node_modules/.bin/metalsmith` < generate a new `_site` folder
+* `node_modules/.bin/metalsmith` < generate a new `docs` folder
 
-## Deploy
+## Deploy to Github Pages
 
-* Git subtree `gh_pages` is the generated folder `_site` > `git subtree push --prefix _site origin gh-pages`
+* Push master to GH. The local "docs" folder is what is going to be shown.
+* Check out: http://fortrabbit.github.io/Custom-HTTP-Error-Pages/
